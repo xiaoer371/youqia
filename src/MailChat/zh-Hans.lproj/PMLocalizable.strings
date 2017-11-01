@@ -1,0 +1,429 @@
+/* 
+  PMLocalizable.strings
+  NPushMail
+
+  Created by wuwenyu on 15/4/21.
+  Copyright (c) 2015年 sprite. All rights reserved.
+*/
+
+PM_Main_Tab_Email         = "邮件";
+PM_Main_Tab_Message_Email = "消息";
+PM_Main_Tab_Contact_Email = "联系人";
+PM_Main_Tab_Mine_Email    = "我";
+//
+PM_Common_Cancel   = "取消";
+PM_Common_Complite = "完成";
+PM_Common_Sure     = "确定";
+PM_Common_Notice   = "提示";
+
+Monday             = "星期一";
+Tuesday           = "星期二";
+Wednesday          = "星期三";
+Thursday           = "星期四";
+Friday             = "星期五";
+Saturday           = "星期六";
+Sunday             = "星期日";
+Yesterday          = "昨天";
+
+ //========message========
+PM_Msg_AddChats           = "发起聊天";
+PM_Msg_ErrInGroup         = "您已不存在此群，系统将自动删除数据";
+PM_Msg_DelMsgCell         = "删除";
+PM_Msg_GroupName          = "群聊名称";
+PM_Msg_NickName          = "修改昵称";
+PM_Msg_GroupNameSave      = "保存";
+PM_Msg_GroupNoChange      = "未修改群名称";
+PM_Msg_NickNameNoChange      = "未修改昵称";
+PM_Msg_GroupChanging      = "修改中...";
+PM_Msg_GroupChangedErr    = "修改失败,请检查网络是否正常";
+PM_Msg_GroupCreating      = "创建中...";
+PM_Msg_GroupCreatErr      = "创建失败";
+PM_Msg_GroupInviting      = "邀请中...";
+PM_Msg_GroupInviteErr     = "添加失败";
+PM_Msg_GroupExiting       = "退出群...";
+PM_Msg_GroupExit          = "退出群组";
+PM_Msg_GroupExitErr       = "退出失败";
+PM_Msg_GroupBreaking      = "解散群...";
+PM_Msg_GroupBreak         = "解散此群组";
+PM_Msg_GroupBreakErr      = "解散群失败";
+PM_Msg_GroupNoName        = "未命名";
+PM_Msg_GroupMembers       = "群成员:";
+PM_Msg_GroupJioning       = "待加入";
+PM_Msg_GroupJion          = "已加入";
+PM_Msg_GroupCreator       = "群主";
+PM_Msg_QuitGroupInfo      = "群已解散";
+PM_Msg_QuitGroup          = "您已被请出群";
+
+PM_Msg_MessageLoading     = "正在加载...";
+PM_Msg_MessageLoadMore    = "加载更多历史记录";
+PM_Msg_MessageLoadHistory = "加载历史记录";
+PM_Msg_MessageSending     = "发送中...";
+PM_Msg_MessageSendFailed  = "发送失败";
+PM_Msg_MessageDetail      = "查看详情";
+PM_Msg_GroupDissolve      = "此群已解散";
+PM_Msg_AddContacts        = "添加联系人";
+PM_Msg_InviteOnlyContacts  = "邀请联系人";
+
+PM_Msg_DelContacts        = "删除联系人";
+PM_Msg_Deleting       = "删除中...";
+PM_Msg_DeleteCancle       = "取消操作";
+PM_Msg_DeleteCreator      = "不能删除群主";
+PM_Msg_DeleteErr_re       = "删除出错,请重试";
+PM_Msg_EmailErrInfo       = "邮箱地址有误";
+PM_Msg_ErrNoContacts      = "请至少添加一个联系人";
+PM_Msg_ErrNoAddContacts   = "未添加其他联系人";
+PM_Msg_Details            = "详情";
+PM_Msg_ChatToGroup        = "添加联系人，创建群聊";
+
+PM_Msg_DeleteHisBtnTitle  = "清空聊天记录";
+
+//====netWork====
+PM_Msg_NetUnusable  = "网络不可用";
+PM_Msg_NetError     = "请求错误";
+PM_Msg_ServerError  = "服务器异常";
+PM_Msg_NetWorkError = "网络错误";
+
+//Contact
+PM_Mine_AddEmailAccount  = "添加邮箱账号";
+PM_Mine_Setting  = "设置";
+PM_Contact_SearchBarPlaceHolder  = "搜索";
+PM_Contact_WriteMail  = "写邮件";
+PM_Contact_NotAddOftenContact  = "未添加常用联系人";
+PM_Contact_OftenContact  = "常用联系人";
+PM_Contact_ContactInfo  = "联系人信息";
+PM_Contact_Edit  = "编辑";
+PM_Contact_CancelOftenContact  = "取消常用联系人";
+PM_Contact_SetOftenContact  = "设为常用联系人";
+PM_Contact_RequestError  = "请求错误";
+PM_Contact_SengMsg  = "发消息";
+PM_Contact_InviteUsed  = "邀请使用邮洽";
+
+PM_Contact_NameTitle  = "姓名";
+PM_Contact_AccountTitle  = "账号";
+PM_Contact_YouQiaUser  = "我在用邮洽";
+PM_Contact_EditGroup = "编辑分组";
+PM_Contact_Comment = "备注";
+PM_Contact_CommentContactName = "备注名";
+PM_Contact_deleteNotice = "将此联系人从联系人列表中删除，并不再自动添加此联系人到联系人列表中";
+PM_Contact_Phone = "电话";
+PM_Contact_MoveGroup = "移动分组";
+PM_Contact_ChoiceGroup = "选择分组";
+PM_Contact_CopyTo = "复制到";
+PM_Contact_AddToNewGroup = "添加到新分组";
+PM_Contact_AddNewGroup = "添加分组";
+PM_Contact_Add = "添加";
+PM_Contact_GroupName = "分组名";
+PM_Contact_GroupNameNotNil = "分组名称不能为空";
+PM_Contact_GroupAlreadyExist = "该分组已存在，请重新输入";
+PM_Contact_DeleteSuccess = "删除成功";
+PM_Contact_DefaultGroupNoDelete = "默认分组不能删除";
+PM_Contact_DeleteGroupAndContacts = "确认删除分组及分组下的联系人吗？";
+PM_Contact_InputEmailAddress = "请输入邮箱地址";
+PM_Contact_moveContactAnthoerGroup = "是否添加联系人到当前分组，并删除在%@组的此联系人？";
+PM_Contact_saveCurrentGroup = "保留";
+PM_Contact_addPhoneNumbers = "添加电话号码";
+PM_Contact_PhoneNumbers = "电话号码";
+PM_Contact_CommentDescription = "描述";
+PM_Contact_AddMoreCommentDescription = "添加更多描述信息";
+PM_contact_TitleGroup = "分组:";
+PM_ContactEnterpriseCompany = "公司";
+PM_ContactEnterpriseDepartMent = "部门";
+PM_ContactEnterprisePosition = "职位";
+PM_ContactEnterpriseLeader = "部门主管";
+PM_ContactEnterpriseEmplyoee = "员工";
+PM_ContactEnterpriseCopy = "复制";
+PM_ContactMessageGroups = "消息群组";
+PM_ContactMessageGroupsEmpity = "您可以通过群聊设置的群保存到联系人列表将群保存到此列表";
+PM_ContactGroupsEmpity = "添加新联系人到此分组或移动其他分组联系人到此分组";
+
+//me
+PM_Mine_AboutYouQia                = "关于邮洽";
+PM_Mine_Version                    = "版本";
+PM_Mine_CheckVersion               = "检测版本...";
+PM_Mine_AleradyNewVersion           ="已经是最新版本";
+PM_Mine_UpdateVersion               ="版本更新";
+PM_Mine_Ignore                     = "跳过";
+PM_Mine_Update                     = "更新";
+PM_Mine_CheckUpdate                = "检查更新";
+PM_Mine_SetScore                   = "去评分";
+PM_Mine_ExitCurrentAccount         = "退出当前账号";
+PM_Mine_Privacy                    = "隐私协议";
+PM_Mine_GesturePassword            = "手势密码";//新增
+PM_Mine_Language                   = "多语言";
+
+
+
+PM_Mine_Exiting                    = "注销中...";
+PM_Mine_avatorTitle                = "头像";
+PM_Mine_nameTitle                  = "昵称";
+PM_Mine_NickNameLengthWrong        = "昵称字数最多不能超过36个，请重新输入";
+PM_Mine_GroupNameLengthWrong        = "分组名称不能超过20个字符，请重新输入";
+PM_Mine_NewMailAlert               = "新邮件\\消息提醒";
+PM_Mine_Signature                  = "邮件签名";
+PM_Mine_FeedBack                   = "意见反馈";
+PM_Mine_Changing                   = "切换中...";
+PM_Mine_Suggestions_PlaceHolder    = "您的意见和建议是我们不断为您创造价值的源泉!";
+PM_Mine_FeedBackAction             = "反馈";
+PM_Mine_PleaseInputFeedBackContent = "请反馈内容";
+PM_Mine_FeedBackFailed             = "反馈失败";
+PM_Mine_FeedBackSuccess            = "反馈成功";
+
+PM_Mine_FeedBackNote               = "描述";
+PM_Mine_FeedBackImageNote          = "截图";
+PM_Mine_FeedBackChooseImage        = "更换截图";
+
+PM_Mine_ExcitementContinued        = "精彩不断";
+PM_Mine_AwardedQuestionnaire       = "有奖问卷";
+PM_Mine_FileManager                = "我的文档";
+
+PM_Mine_sendFeedBackFile           = "是否上传日志诊断文件";
+PM_Mine_FileSize                   = "大小";
+PM_Mine_AlreadyPushOn              = "已开启";
+PM_Mine_AlreadyPushOff             = "未开启";
+PM_Mine_PushSettingGuide           = "请在iPhone的“设置”的“通知”模块下，找到“邮洽”程序进行更改";
+PM_Mine_mailPushTitle              = "邮件收件提醒";
+PM_Mine_msgPushTitle               = "消息提醒";
+PM_Mine_signatureSetEach           = "分账号设置";
+PM_Mine_signatureSetTogether       = "我想统一设置";
+
+
+PM_Mail_FolderOptionInbox   = "收件箱";
+PM_Mail_FolderOptionSendBox = "已发送";
+PM_Mail_FolderOptionOutBox  = "待发送";
+PM_Mail_FolderOptionCollect  = "收藏邮件";
+PM_Mial_FolderOptionDelete  = "已删除";
+PM_Mail_FolderOptionOtherfolder  = "其他文件夹";
+PM_Mail_FolderOptionDraft  = "草稿箱";
+PM_Mail_FolderOptionSpam  = "垃圾邮件";
+PM_Mail_NoneSubject  = "无主题";
+PM_Mail_NoneToAddress  = "无收件人";
+PM_Mail_NoneFromAddress  = "无发件人";
+PM_Mail_NoneTextContent  = "此邮件无文字内容";
+PM_Mail_NoneNewMail  = "没有新邮件";
+PM_Mail_NoneMails  = "没有邮件";
+PM_Mail_NoneMoreMails  = "没有更多邮件";
+PM_Mail_ConnectFail  = "连接失败";
+PM_Mail_SetUnRead  = "标记\n未读";
+PM_Mail_SetRead  = "标记\n已读";
+PM_Mail_Set_UnRead  = "标记未读";
+PM_Mail_Set_Read  = "标记已读";
+PM_Mail_UnRead  =  "未读";
+PM_Mail_More    =  "更多";
+PM_Mail_All     =  "全部";
+PM_Mail_Collection  = "收藏";
+PM_Mail_SelectAll   = "全选";
+PM_Mail_UnSelectAll = "取消全选";
+
+
+PM_Mail_NewMailReloadDown = "下拉刷新";
+PM_Mail_NewMailReloadOut  = "松开刷新";
+PM_Mail_NewMailReloadIng  = "刷新中";
+PM_Mail_NewMailReloadData = "最后更新";
+PM_Mail_NewMailReloadDataToday = "今天";
+PM_Mail_SearchServer      = "搜索服务器";
+PM_Mail_NoResults         = "无结果";
+
+PM_Mail_UnCollection  = "取消收藏";
+PM_Mail_DeleteMail  = "删除";
+PM_Mail_MoveMail  = "移动";
+PM_Message_SendInvitations  = "发送邀请";
+PM_Message_Invitations  = "邀请";
+PM_Message_Invitationsucc  = "邀请成功";
+
+PM_Message_Invitationsing  = "邀请中...";
+PM_Message_InvitationsFail  = "邀请失败";
+PM_Message_InviteMail  = "已发邮件邀请";
+
+PM_Mail_EditOptionReplyAll   = "回复全部";
+PM_Mail_EditOptionrReplyOnlyOne   = "回复";
+PM_Mail_EditOptionForward   = "转发";
+PM_Mail_MailFrom   = "发件人";
+PM_Mail_MailTo   = "收件人";
+PM_Mail_MailDetailCc   = "抄送人";
+PM_Mail_MailData   = "日期";
+PM_Mail_MailTime   = "时   间";
+PM_Mail_MailSubject   = "主题";
+PM_Mail_MailEdit   = "写信";
+PM_Mail_SendMail   = "发送";
+PM_Mail_Mialbcc   = "密送";
+PM_Mail_MailCc   = "抄送";
+//－－－－－－
+PM_Mail_MailSignature   = "发自邮洽手机端";
+PM_Mail_AttLoading   = "附件载入中";
+PM_Mail_AttNote       =   "可能导致附件丢失，是否要继续发送";
+PM_Mail_OptionNo      =   "否";
+PM_Mail_OptionYes     =   "是";
+
+PM_Mail_SubjectNote   =   "此邮件没有主题";
+PM_Mail_IsSending    =   "是否要继续发送？";
+PM_Mail_SaveDraftOrNO =   "是否保存草稿箱";
+PM_Mail_SaVeDraft     =   "保存草稿箱";
+PM_Mail_NotSaveDraft =   "不保存草稿箱";
+PM_Mail_MailSendScc  =   "发送成功";
+PM_Mail_MailSendFail =   "发送失败";
+PM_Mail_AddContactNote=   "请至少添加一个联系人";
+PM_MailAccontCKNote     = "账号格式有误！";
+PM_Mail_UnableUseCamera = "无法使用相机";
+PM_Mail_UseCameraNote  = "请打开 设置-隐私-相机 来进行设置";
+PM_Mail_PreviewPhoto    = "预览";
+PM_Mail_ReadMail       = "查看邮件";
+PM_Mail_PhoneCall        ="呼叫";
+PM_Mail_MailAttDownloading   =  "下载中...";
+PM_Mail_MailAttDownload    =  "下载";
+PM_Mail_MailAttDownloadError   = "下载错误";
+PM_Mail_ShowMoreDetail         = "显示";
+PM_Mail_HideMoreDetail         = "隐藏";
+PM_Mail_ForwardWithAtt         = "包含附件";
+PM_Mail_ForwardWithOutAtt      = "不包含附件";
+PM_Mail_MailLoadAgain          = "重新加载";
+PM_Message_NewGrupChat        = "创建群";
+PM_Mail_PreviewFileNote        = "不支持的文件类型";
+PM_Mail_Loading               = "加载中";
+PM_Mail_MailAttchmentPreview   = "查看";
+PM_Mail_OpenUseOtherAPP       =  "使用其他应用打开";
+PM_Mine_ClearCache            = "清除缓存";
+
+
+
+
+PM_Login_SelectMailLogin       = "选择邮箱登录";
+PM_Login_LoginMail             = "登录";
+PM_Login_AccountOrPassWordNil  = "账号或密码不能为空!";
+PM_Login_AccountError          = "账号格式有误";
+PM_Login_AccountRepeat         = "账号已存在！";
+PM_Login_AccountValidation     = "验证中...";
+PM_Login_AccountSuccess        =  "验证成功";
+PM_Login_AccountValidationFail = "验证失败";
+PM_Login_ManualIMAPSetting     = "手动配置";
+PM_Login_LoginError           = "登录错误";
+PM_Login_IMAPSetting           = "IMAP设置";
+
+PM_Login_NetEasePasswordNote  = "授权码";
+
+PM_Login_LoginErrorNote        =  "请尝试以下解决方式:\n1.登录网页邮箱打开IMAP服务\t\n2.请输入正确的账号密码\t\t";
+PM_Login_LoginNoteWithIndependentPassword = "请尝试以下解决方式:\n1.登录网页邮箱打开IMAP服务\t\n2.请输入正确的账号密码\t\t\n3.使用授权码登录  \t\t\t";
+PM_Login_LoginNetEastNoteWithIndependentPassword = "请尝试以下解决方式:\n1.登录网页邮箱打开IMAP服务\t\n2.请使用授权码登录  \t\t\t";
+PM_Login_Login35NoteWithIndependentPassword = "您的账号或密码不正确!";
+PM_Login_ServerSetting                    = "服务器设置";
+PM_Login_SMTPSettingError                = "服务器连接失败，请检查服务器设置和网络后重新连接";
+PM_Login_AccountValidationFailNote        = "账号密码错误或状态异常,请重新登录或联系您的管理员";
+PM_Login_LoginAgain                    = "重新登录";
+PM_Login_ChangeAccount                   = "切换账号";
+PM_Login_NickName = "昵称:";
+PM_Login_ClickFix = "点击修改";
+PM_Login_YQstart = "立即体验";
+PM_Login_TakePhoto ="拍照";
+PM_Login_FromPhoto ="从相册选取";
+PM_Login_Logining = "正在进入...";
+PM_Login_PhotoreStricted = "邮洽未开启访问照片或视频权限";
+PM_Login_PhotoSet = "前往开启";
+PM_Login_HowToSet = "您可以通过 “设置-隐私-照片” 开启邮洽的访问权限";
+PM_Login_Account = "邮箱:";
+PM_Login_PassWord = "密码:";
+PM_Login_HelperText = "登录不了? 找邮洽小助手帮忙";
+PM_Login_Helper = "找邮洽小助手帮忙";
+PM_Login_HelperName = "邮洽小助手";
+PM_UUInput_placeH = "新消息";
+PM_UUInput_PhotoAlbum = "相册";
+
+PM_MailType_Company = "企业邮箱";
+PM_MailType_Other   = "其他邮箱";
+
+
+PM_IMAGE_SaveImageToAlbum = "保存到相册";
+PM_IMAGE_SaveImageErr = "保存图片失败!本地相册权限关闭,请到设置-隐私-照片-邮洽开启访问权限";
+PM_IMAGE_SaveImageSuc = "保存图片成功";
+PM_FORWARD_Forward = "转发";
+PM_FORWARD_ForwardTo = "转发到";
+PM_FORWARD_ForwardRecently = "最近";
+PM_FORWARD_ForwardSure = "是否转发";
+PM_FORWARD_ForwardWithEmail = "通过邮件转发";
+PM_Account_set = "账号设置";
+PM_Mine_SetGesturePassword  = "设置手势密码";
+PM_Mine_SetingGesturePassword  = "请绘制手势密码";
+PM_Mine_Modify_GesturePassword  = "修改手势密码";
+PM_Mine_PleaseGesturePassword  = "请输入手势密码";
+PM_Mine_ForgetGesturePassword  = "忘记手势密码?";
+PM_Mine_SetAgainGesturePassword  = "验证原手势密码";
+PM_Mine_SettingAgainGesturePassword  = "请再次绘制手势密码";
+PM_Mine_SetGestureDifferent  = "两次绘制的图案不一致，请重新绘制";
+PM_Mine_SetGestureSuccess  = "设置成功";
+PM_Mine_GestureError  = "密码错误";
+PM_Mine_OldGesture  = "请输入原手势密码";
+PM_Main_ForwardContact = "通过消息发送";
+PM_Main_CcToSelf      = "写邮件抄送给自己";
+PM_Main_inviteSomeUseAPP = "邀请朋友使用邮洽";
+PM_Main_inviteSomeUseYouQia = "邀请朋友使用";
+PM_Main_Someone_using_APP = "以下朋友已在使用邮洽,快打个招呼吧!";
+PM_Main_Remind_Chat_APP = "或点击右上角发起聊天,可以多人讨论哦!";
+PM_Mail_Push_Show_Detail = "通知显示消息详情";
+PM_Main_Push_Msg_Close_Notice = "关闭某项后，当收到此类新消息，不再有通知提示。";
+PM_Main_Push_ShowDetail_Close_Notice = "关闭后，当收到新消息时，通知提示将不再显示发信人和内容摘要。";
+
+PM_FORWARD_ForwardSuccess = "转发成功";
+PM_Main_Clear = "清除缓存";
+PM_Mail_LoadMoreEmails   = "上拉可以加载更多数据";
+PM_Mail_LoosenMoreEmails   = "松开立即加载更多数据";
+PM_Mail_LoadingMoreEmails   = "正在帮你加载数据...";
+PM_Msg_QuitGroupSomeone      = "已被请出群";
+PM_Msg_Push_OA      = "移动签批(35PushOA)";
+PM_Msg_Send_OA      = "发起OA";
+PM_Msg_SetMsg_Top      = "置顶";
+PM_Msg_OA_Notice   = "公告";
+PM_Msg_OA_Title   = "移动签批(OA";
+PM_Msg_OA_Commission   = "待办事务";
+PM_Msg_OA_Launch   = "发起事务";
+PM_Msg_File_Down   = "点击下载";
+PM_Msg_File_stop   = "暂停";
+PM_Msg_Type_File   = "[文件]";
+PM_Msg_Type_Voice   = "[语音]";
+PM_Msg_Type_Pic   = "[图片]";
+PM_Contacts_Type_En   = "企业联系人";
+PM_Contacts_Type_To   = "最近联系人";
+PM_Msg_OA_LaunchFromMe   = "我发起的";
+PM_Msg_Send_File   = "发送文件";
+//服务器配置
+PM_ServerSetting_set      = "服务器配置";
+PM_ServerSetting_imap     = "收件服务器";
+PM_ServerSetting_smtp     = "发件服务器";
+PM_ServerSetting_Server   = "服务器";
+PM_ServerSetting_Account  = "用户名";
+PM_ServerSetting_password = "密码";
+PM_ServerSetting_Port     = "端口";
+PM_ServerSetting_SSL      = "SSL";
+PM_Message_SetTop      = "消息置顶";
+PM_Message_No_Push      = "消息免打扰";
+
+
+
+PM_Msg_Type_FileTitle   = "文件";
+PM_Msg_SetMsg_NoTop      = "取消置顶";
+PM_Msg_SetOA_Notice      = "OA 提醒";
+PM_Message_ContactSave  = "群保存到联系人列表";
+
+
+//11.16 add
+PM_Message_CopyText  = "拷贝";
+PM_Message_LoadURL  = "加载网页";
+PM_Message_CallTel  = "直接拨打";
+
+
+//12.17  add
+PM_Invite_Notice  = "1.使用朋友的邀请码，朋友可以得到相应的积分奖励。\n\n2.目前只有三五内部员工有邀请码，奖品将会在内部公布，后续再对外开放。\n\n3.如果您是三五员工，您也会有一个私人的邀请码，进入后在“我”的页面，选择“邀请朋友查看”。\n\n4.邀请码只有首次登录可以填写\n\n5.此次活动与苹果公司无关。";
+PM_Invite_Friends = "邀请好友";
+PM_Invite_InputCode = "输入邀请码";
+PM_Invite_Mark = "注: 已注册过的用户不能使用邀请码";
+PM_Invite_Info = "使用朋友的邀请码，朋友可以得到相应的积分奖励。没有可跳过。";
+PM_Invite_award = "有奖邀请";
+PM_Invite_InvCode = "您的邀请码：";
+PM_Invite_InvNotice = "对方安装后输入该邀请码，您将获得奖励。";
+PM_Invite_NoticeMe  = "您的邀请码是唯一的，点“邀请朋友”，我们会给您选择的朋友发送邮件邀请，并带上您的邀请码。\n\n对方安装登录时输入您的邀请码，您将获取到10积分奖励。\n\n注意：\n1.目前只有三五内部员工有邀请码，奖品我们也是在内部公布，后续再对外开放。\n\n2.目前只有在首次登录可以填写邀请码，登录设置头像后不能再填写，请提醒朋友登录时及时填写下。\n\n3.此活动与苹果公司无关。";
+PM_Invite_Getscore = "已经获取";
+PM_Invite_Score = "积分";
+
+//12.18 add
+PM_UpdateVersion_note = "升级提醒";
+PM_UpdateVersion_NO   = "暂时忽略";
+PM_UpdateVersion_Yes  = "更新";
+PM_UpdateVersion_title = "邮洽已更新到%@版本";
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MailchatFile.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>41</integer>
+		</dict>
+		<key>NPushMail.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>PushMail.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>PushMailWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>490508981DEFBE0F00B32148</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>492B634A1DADDBF500B5AAC5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>495364A719B553B000BBAC5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>495364C219B553B000BBAC5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>845B20671E2F405500D5D77B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>845B206F1E2F405500D5D77B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8474AD961C61E9C00057F24D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

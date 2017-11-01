@@ -1,0 +1,16 @@
+/* 
+  DNImagePicker.strings
+  ImagePicker
+
+  Created by DingXiao on 15/3/4.
+  Copyright (c) 2015年 Dennis. All rights reserved.
+*/
+"albumTitle" = "照片";
+"cancel" = "取消";
+"send" = "發送";
+"preview" = "預覽";
+"fullImage" = "原圖";
+"alertTitle" = "提示";
+"alertContent" = "不能超過設置張数";
+"alertButton" = "確定";
+"UnAuthorizedTip" = "請在iPhone的\"設置-隱私-照片\"選項中，\n允許%@訪問妳的手機相冊";

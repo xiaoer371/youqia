@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys
+ 
+CFBundleDisplayName = "邮洽(测试版)";
+ 
+ */
+CFBundleDisplayName = "邮洽";

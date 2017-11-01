@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MCContactGroupCell" id="bwk-xC-h8v" customClass="MCContactGroupCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bwk-xC-h8v" id="Vpb-PG-uFK">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LC2-OK-Yxf">
+                        <rect key="frame" x="12" y="8" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="3sk-1D-eqw"/>
+                            <constraint firstAttribute="height" constant="40" id="k3n-eQ-QHW"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fca-dD-vlp">
+                        <rect key="frame" x="62" y="18" width="240" height="21"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="734-xd-7an"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cellArror.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ked-NR-JEd">
+                        <rect key="frame" x="300" y="18" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="WGB-Et-cHb"/>
+                            <constraint firstAttribute="width" constant="20" id="Z0P-iK-uMg"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="fca-dD-vlp" firstAttribute="leading" secondItem="LC2-OK-Yxf" secondAttribute="trailing" constant="10" id="2dx-E7-OQu"/>
+                    <constraint firstItem="Ked-NR-JEd" firstAttribute="top" secondItem="Vpb-PG-uFK" secondAttribute="top" constant="18" id="6OY-y4-PQ7"/>
+                    <constraint firstItem="LC2-OK-Yxf" firstAttribute="top" secondItem="Vpb-PG-uFK" secondAttribute="top" constant="8" id="Ct1-9W-coF"/>
+                    <constraint firstItem="LC2-OK-Yxf" firstAttribute="leading" secondItem="Vpb-PG-uFK" secondAttribute="leading" constant="12" id="FML-QX-Vom"/>
+                    <constraint firstAttribute="trailing" secondItem="fca-dD-vlp" secondAttribute="trailing" constant="18" id="YnI-rc-A87"/>
+                    <constraint firstItem="fca-dD-vlp" firstAttribute="top" secondItem="Vpb-PG-uFK" secondAttribute="top" constant="18" id="qtu-hs-s8y"/>
+                    <constraint firstAttribute="trailing" secondItem="Ked-NR-JEd" secondAttribute="trailing" id="sRH-Ph-QMX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="62" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="arrorRightConstraint" destination="sRH-Ph-QMX" id="YDG-i9-oeb"/>
+                <outlet property="groupAvatorImgView" destination="LC2-OK-Yxf" id="0Hm-dP-6Tf"/>
+                <outlet property="groupNameLabel" destination="fca-dD-vlp" id="hn2-nI-ycv"/>
+            </connections>
+            <point key="canvasLocation" x="261" y="275"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cellArror.png" width="20" height="20"/>
+    </resources>
+</document>

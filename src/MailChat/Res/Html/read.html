@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <style>
+         
+       /* body {margin:14px 14px 14px 13px!important;
+              font-family: Verdana, sans-serif;}
+        body, a, span, p, div, li, h1, h2, h3, h4, h5, h6, h7, b, font {
+            font-family: FZLanTingHeiS-R-GB;
+            font-size: 16px;
+            word-break: break-all !important;
+        }*/
+        html {
+            margin:0px!important;
+            padding:0px!important;
+        }
+        body {
+            margin:14px 15px 30px 15px!important;
+            padding:0px!important;
+            font-family:sans-serif;
+            font-size:17px;
+            color:#000000;
+            word-wrap:break-word!important;
+            -webkit-touch-callout:none;
+        }
+        /*table {
+            word-break:normal!important;
+            word-wrap:normal!important;
+        }*/
+        blockquote{
+            -webkit-margin-start:0px;!important;
+            -webkit-margin-end:0px;!important;
+        }
+        img {
+            border:none;vertical-align:middle;
+        }
+        
+        a {
+            color:#3294e7;
+        }
+        a:link {
+            color:#2e90eb;
+        }
+        a:visited {
+            color:#5b81c1;
+        }
+        
+        </style>
+    </head>
+    <body><font color = "333333">%@</font>
+        <meta name="viewport" content=" width=device-width,initial-scale=1.0, minimum-scale=0.01, maximum-scale=3.0, user-scalable=yes">
+    </body>
+</html>
+
+<script>
+    
+    var imageElements = function() {
+        var imageNodes = document.getElementsByTagName('img');
+        return [].slice.call(imageNodes);
+    };
+
+    var findCIDImageURL = function() {
+        var images = imageElements();var imgLinks = [];
+        for (var i = 0; i < images.length; i++)
+        {
+            var url = images[i].getAttribute('src');
+            if (url.indexOf('cid:') == 0 || url.indexOf('x-mailcore-image:') == 0)
+            imgLinks.push(url);
+        }
+        return JSON.stringify(imgLinks);
+    };
+
+    var replaceImageSrc = function(info) {
+        var images = imageElements();
+        for (var i = 0; i < images.length; i++) {
+            var url = images[i].getAttribute('src');
+            if (url.indexOf(info.URLKey) == 0) {
+                images[i].setAttribute('src', info.LocalPathKey);
+                resizeImages();
+            }
+        }
+    };
+
+    function resizeImages(){
+        
+        var inlineImages = document.getElementsByTagName("img");
+        var imagesCount = inlineImages.length;
+        
+        var deviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        var maxWidth = deviceWidth - 30;
+        
+        for (var i = 0;i<imagesCount;i++)
+        {
+            var photo = inlineImages[i];
+            photo.onload = function(){
+                
+                var img = this;
+                
+                if (img.width > maxWidth){
+                    
+                    img.removeAttribute("width");
+                    img.style.width = maxWidth;
+                    img.style.height = "auto";
+                    
+                    var w = img.width;
+                    img.width = maxWidth;
+                    img.height = img.height * maxWidth / w;
+                }
+                
+            }
+            
+        }
+    }
+     //table使用transform缩放
+    function resizeTables(){
+        var tables = document.getElementsByTagName("table");
+        if (!tables || tables.length == 0){
+            return;
+        }
+        var deviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        var maxWidth = deviceWidth - 30;
+        
+        for(var i = 0; i < tables.length; i++){
+            var mcTable = tables[i];
+            if(mcTable.width && mcTable.width > maxWidth){
+                
+                var _nScale = maxWidth/mcTable.width;
+                //计算偏移百分比(由于是中心缩放，缩放后需要平移到左上角位置
+                var _nTranslate = (1 - _nScale) * 100 / (2 * _nScale);
+                //设置样式
+                mcTable.style.webkitTransform = "scale(" + _nScale + ")";
+                //translate(-" + _nTranslate + "%,-" + _nTranslate + "%)";
+                mcTable.style.marginLeft = "0";
+                mcTable.style.marginRight = "0";
+                //mcTable.width = maxWidth;
+                //由于缩放后，占位不变，外面高度也需要调整
+                var h = (mcTable.scrollHeight * _nScale);
+                //mcTable.style.cssText =  "height:" + h  + "px !important;overflow:visible;";
+            }
+        }
+    }
+
+    function resizeAllElementsWidth(){
+        
+        var maxWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        
+        var allElements = document.getElementsByTagName("*");
+        for( var i = 0; i < allElements.length; i++){
+            var elmt = allElements[i];
+            
+            if(elmt.tagName == "img"){
+                continue;
+            }
+            
+            if (elmt.offsetWidth > maxWidth){
+                elmt.removeAttribute("width");
+                elmt.style.width = "auto";
+            }
+        }
+    }
+
+    function relayoutPage(){
+        //resizeImages();
+        //resizeTables();
+        //resizeAllElementsWidth();
+    }
+
+
+</script>

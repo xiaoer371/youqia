@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MCAddContactBaseInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="tLT-hf-vEO">
+                        <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="1wy-CG-UH3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1wy-CG-UH3"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="1wy-CG-UH3"/>
+                            </mask>
+                        </variation>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="tLT-hf-vEO" secondAttribute="trailing" constant="10" id="iGz-ws-7sW"/>
+                    <constraint firstItem="tLT-hf-vEO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ozJ-Mh-BEi"/>
+                    <constraint firstItem="tLT-hf-vEO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="taM-IW-Ms7"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="tLT-hf-vEO"/>
+                    </mask>
+                    <mask key="constraints">
+                        <exclude reference="iGz-ws-7sW"/>
+                        <exclude reference="ozJ-Mh-BEi"/>
+                        <exclude reference="taM-IW-Ms7"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="tLT-hf-vEO"/>
+                    </mask>
+                    <mask key="constraints">
+                        <include reference="iGz-ws-7sW"/>
+                        <include reference="ozJ-Mh-BEi"/>
+                        <include reference="taM-IW-Ms7"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="textField" destination="tLT-hf-vEO" id="uAv-1q-Ip5"/>
+            </connections>
+            <point key="canvasLocation" x="215" y="169"/>
+        </tableViewCell>
+    </objects>
+</document>

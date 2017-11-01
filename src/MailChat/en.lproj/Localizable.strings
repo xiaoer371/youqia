@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  NPushMail
+
+  Created by wuwenyu on 15/5/4.
+  Copyright (c) 2015年 sprite. All rights reserved.
+*/
+//以下是微妹推送用到的.
+MAIL_NEW = "%@ sent a new mail.  \n%@";

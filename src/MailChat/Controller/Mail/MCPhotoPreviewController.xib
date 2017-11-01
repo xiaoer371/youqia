@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MCPhotoPreviewController">
+            <connections>
+                <outlet property="boomView" destination="We0-QF-sHQ" id="xVe-wD-Y7b"/>
+                <outlet property="deleteButton" destination="h6s-JG-a4O" id="nKd-vt-5dX"/>
+                <outlet property="navView" destination="EdX-GC-Vbn" id="8xp-yY-VB2"/>
+                <outlet property="originalButton" destination="MCN-rc-TYK" id="Des-3s-Pb2"/>
+                <outlet property="originalLable" destination="VLd-kY-cz5" id="hXM-F3-z6I"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EdX-GC-Vbn">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYo-ub-tjo">
+                            <rect key="frame" x="11" y="15" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="1Zs-xd-BSV"/>
+                                <constraint firstAttribute="height" constant="44" id="ytT-s4-Ilu"/>
+                            </constraints>
+                            <state key="normal" image="mc_common_back.png"/>
+                            <connections>
+                                <action selector="mcDismiss:" destination="-1" eventType="touchUpInside" id="Kzx-qT-PQv"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Z9-f3-LHw">
+                            <rect key="frame" x="236" y="15" width="70" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="Euv-c2-XDf"/>
+                                <constraint firstAttribute="width" constant="70" id="Lvn-xI-2aI"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="bYo-ub-tjo" firstAttribute="top" secondItem="EdX-GC-Vbn" secondAttribute="top" constant="15" id="TCO-zk-jNt"/>
+                        <constraint firstAttribute="trailing" secondItem="8Z9-f3-LHw" secondAttribute="trailing" constant="14" id="UCy-Ky-19L"/>
+                        <constraint firstItem="bYo-ub-tjo" firstAttribute="leading" secondItem="EdX-GC-Vbn" secondAttribute="leading" constant="11" id="bvA-2Y-KAw"/>
+                        <constraint firstItem="8Z9-f3-LHw" firstAttribute="top" secondItem="EdX-GC-Vbn" secondAttribute="top" constant="15" id="eqz-jd-Ofl"/>
+                        <constraint firstAttribute="height" constant="64" id="zpt-cc-Wa5"/>
+                    </constraints>
+                </view>
+                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="We0-QF-sHQ">
+                    <rect key="frame" x="0.0" y="528" width="320" height="40"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6s-JG-a4O">
+                            <rect key="frame" x="267" y="5" width="45" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="0Lo-Be-Kxx"/>
+                                <constraint firstAttribute="width" constant="45" id="Bzv-Xe-TbS"/>
+                            </constraints>
+                            <state key="normal" title="delete"/>
+                            <connections>
+                                <action selector="deleteAttachment:" destination="-1" eventType="touchUpInside" id="Ikx-Cs-gup"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCN-rc-TYK">
+                            <rect key="frame" x="12" y="5" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="BxE-zi-z1f"/>
+                                <constraint firstAttribute="width" constant="30" id="Qgn-fa-B7R"/>
+                            </constraints>
+                            <connections>
+                                <action selector="selectOriginalImage:" destination="-1" eventType="touchUpInside" id="VU7-YV-OSv"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLd-kY-cz5">
+                            <rect key="frame" x="47" y="9" width="128" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="128" id="19t-24-UJc"/>
+                                <constraint firstAttribute="height" constant="21" id="WGP-Ay-pBv"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                    <constraints>
+                        <constraint firstItem="MCN-rc-TYK" firstAttribute="leading" secondItem="We0-QF-sHQ" secondAttribute="leading" constant="12" id="Mim-wj-FHc"/>
+                        <constraint firstItem="MCN-rc-TYK" firstAttribute="top" secondItem="We0-QF-sHQ" secondAttribute="top" constant="5" id="XWs-9P-rOP"/>
+                        <constraint firstItem="VLd-kY-cz5" firstAttribute="top" secondItem="We0-QF-sHQ" secondAttribute="top" constant="9" id="Yy2-9E-teJ"/>
+                        <constraint firstAttribute="height" constant="40" id="jNH-9V-CtJ"/>
+                        <constraint firstItem="h6s-JG-a4O" firstAttribute="top" secondItem="We0-QF-sHQ" secondAttribute="top" constant="5" id="nab-4O-tWu"/>
+                        <constraint firstAttribute="trailing" secondItem="h6s-JG-a4O" secondAttribute="trailing" constant="8" id="rg3-rM-Hdy"/>
+                        <constraint firstItem="VLd-kY-cz5" firstAttribute="leading" secondItem="MCN-rc-TYK" secondAttribute="trailing" constant="5" id="zxf-84-Vpc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="We0-QF-sHQ" secondAttribute="trailing" id="MFR-jW-zvl"/>
+                <constraint firstItem="We0-QF-sHQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bjl-C2-c3k"/>
+                <constraint firstItem="EdX-GC-Vbn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fZm-W0-IAs"/>
+                <constraint firstAttribute="bottom" secondItem="We0-QF-sHQ" secondAttribute="bottom" id="gpp-es-ZsM"/>
+                <constraint firstItem="EdX-GC-Vbn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iA1-e8-byd"/>
+                <constraint firstAttribute="trailing" secondItem="EdX-GC-Vbn" secondAttribute="trailing" id="iGz-T1-jmL"/>
+            </constraints>
+            <point key="canvasLocation" x="1" y="184"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mc_common_back.png" width="22" height="22"/>
+    </resources>
+</document>

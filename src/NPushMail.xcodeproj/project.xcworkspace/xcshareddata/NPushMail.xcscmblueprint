@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9796cbaf-56e1-9a4d-b141-ad8aa0724257++3285",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "9796cbaf-56e1-9a4d-b141-ad8aa0724257++3285" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9796cbaf-56e1-9a4d-b141-ad8aa0724257++3285" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "571153B1-CB45-4C1D-9C16-3310E82CF92E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9796cbaf-56e1-9a4d-b141-ad8aa0724257++3285" : "1.0.0NPushMail\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NPushMail",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NPushMail.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/10.35.60.79:8443\/svn\/prj_Apollo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9796cbaf-56e1-9a4d-b141-ad8aa0724257++3285"
+    }
+  ]
+}

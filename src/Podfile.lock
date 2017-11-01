@@ -1,0 +1,143 @@
+PODS:
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AppAuth (0.4.2)
+  - BBSZLib (0.0.2)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - CustomIOSAlertView (0.9.3)
+  - DACircularProgress (2.3.1)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - IDMPhotoBrowser (1.8.4):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - JDStatusBarNotification (1.5.2)
+  - KVOController (1.0.3)
+  - MGSwipeTableCell (1.5.3)
+  - MJRefresh (2.4.12)
+  - MKNetworkKit (0.87):
+    - Reachability (~> 3.1.0)
+  - MQTTClient (0.7.4):
+    - MQTTClient/Core (= 0.7.4)
+  - MQTTClient/Core (0.7.4):
+    - CocoaLumberjack
+  - OpenUDID (1.0.0)
+  - pop (1.0.9)
+  - QBImagePickerController (2.5.2)
+  - Reachability (3.1.1)
+  - RSKImageCropper (1.5.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SocketRocket (0.4.2)
+  - SVProgressHUD (1.1.3)
+  - TDBadgedCell (2.6)
+  - TYAttributedLabel (2.6.1)
+  - UITableView+FDTemplateLayoutCell (1.5.beta)
+  - UMengAnalytics-NO-IDFA (4.1.1)
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger (~> 2.0.4)
+  - AFNetworking (~> 2.6.1)
+  - AppAuth (from `https://gaoyongqing@bitbucket.org/mailchat/appauth.git`)
+  - BBSZLib (~> 0.0.2)
+  - CocoaLumberjack (~> 2.2.0)
+  - CustomIOSAlertView (~> 0.9.3)
+  - FMDB (~> 2.5)
+  - IDMPhotoBrowser (~> 1.8.4)
+  - JDStatusBarNotification (~> 1.5.2)
+  - KVOController (~> 1.0.3)
+  - MGSwipeTableCell (~> 1.5.3)
+  - MJRefresh (~> 2.4.12)
+  - MKNetworkKit (~> 0.87)
+  - MQTTClient (from `https://gaoyongqing@bitbucket.org/mailchat/mqtt-client-framework.git`)
+  - OpenUDID (~> 1.0.0)
+  - QBImagePickerController (~> 2.5.2)
+  - RSKImageCropper (~> 1.5.1)
+  - SDWebImage (~> 3.7.3)
+  - SocketRocket (~> 0.4.2)
+  - SVProgressHUD (~> 1.1.3)
+  - TDBadgedCell (~> 2.6)
+  - TYAttributedLabel (~> 2.6.0)
+  - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
+  - UMengAnalytics-NO-IDFA (~> 4.1.1)
+
+EXTERNAL SOURCES:
+  AppAuth:
+    :git: https://gaoyongqing@bitbucket.org/mailchat/appauth.git
+  MQTTClient:
+    :git: https://gaoyongqing@bitbucket.org/mailchat/mqtt-client-framework.git
+
+CHECKOUT OPTIONS:
+  AppAuth:
+    :commit: 5d2ee4fc85735baf8832fa0c6d1fb1f395cc1be3
+    :git: https://gaoyongqing@bitbucket.org/mailchat/appauth.git
+  MQTTClient:
+    :commit: a611142cbe4eb9f048fcf8929fbd59e5f840e5a5
+    :git: https://gaoyongqing@bitbucket.org/mailchat/mqtt-client-framework.git
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AppAuth: 292151ac22065106b0bee6b80e3be29c95bda0fc
+  BBSZLib: ba259b9e5a8250598a8c7ca88829663ce17d803d
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  CustomIOSAlertView: 94d2401e34fcfb0ac0134679d6947f5e251b0446
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  IDMPhotoBrowser: b574fe3229754e701f32df271afbc4ac7e4e1997
+  JDStatusBarNotification: a36d09ccbb047217572b074a61e7ca10dddc5f0a
+  KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
+  MGSwipeTableCell: 5ae3b9a15efda26b201adc8676b24040febe6ff6
+  MJRefresh: ca8e9589895977df32d379d46e6b8a5450b3ff44
+  MKNetworkKit: 60ad3c83b62183e40ba75ce772c9427c25b520de
+  MQTTClient: 1c1bedf87249a317ee9324b93252867bbc443ec7
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  QBImagePickerController: 96c2e340edb7fcac5acf21b72314fac9201ffb8e
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
+  RSKImageCropper: edd65fedb3734332818deb139906d6b7f54b8a44
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TDBadgedCell: 522ef0fe70221a031eff8d424f5d57379f652088
+  TYAttributedLabel: 4785820dc8d7935446f49f1de4daa0f99ebcba8a
+  UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
+  UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
+
+PODFILE CHECKSUM: b14314dda04db0d4089256d1a0695be4b1e57e22
+
+COCOAPODS: 1.1.1

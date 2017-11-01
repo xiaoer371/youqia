@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <script>var imageElements = function() {var imageNodes = document.getElementsByTagName('img');return [].slice.call(imageNodes);};var findCIDImageURL = function() {var images = imageElements();var imgLinks = [];for (var i = 0; i < images.length; i++) {var url = images[i].getAttribute('src');if (url.indexOf('cid:') == 0 || url.indexOf('x-mailcore-image:') == 0)imgLinks.push(url);}return JSON.stringify(imgLinks);};var replaceImageSrc = function(info) {var images = imageElements();for (var i = 0; i < images.length; i++) {var url = images[i].getAttribute('src');if (url.indexOf(info.URLKey) == 0) {images[i].setAttribute('src', info.LocalPathKey);break;}}};
+            </script>
+        
+        <script type="text/javascript">
+            
+            function insertTextAtCursor(text) {
+                var sel, range, html;
+                if (window.getSelection) {
+                    sel = window.getSelection();
+                    console.log(sel);
+                    if (sel.getRangeAt && sel.rangeCount) {
+                        range = sel.getRangeAt(0);
+                        range.deleteContents();
+                        var textNode = document.createTextNode(text);
+                        range.insertNode(textNode);
+                        range.setStartAfter(textNode);
+                        sel.removeAllRanges();
+                        sel.addRange(range);
+                    }
+                } else if (document.selection && document.selection.createRange) {
+                    document.selection.createRange().text = text;
+                }
+            }
+        
+        function saveSelection() {
+            if (window.getSelection) {
+                sel = window.getSelection();
+                if (sel.getRangeAt && sel.rangeCount) {
+                    return sel.getRangeAt(0);
+                }
+            } else if (document.selection && document.selection.createRange) {
+                return document.selection.createRange();
+            }
+            return null;
+        }
+        
+        function restoreSelection(range) {
+            if (range) {
+                if (window.getSelection) {
+                    sel = window.getSelection();
+                    sel.removeAllRanges();
+                    sel.addRange(range);
+                } else if (document.selection && range.select) {
+                    range.select();
+                }
+            }
+        }
+        
+        function storeCursor() {
+            window.savedRange = saveSelection();
+        }
+        
+        function restoreCursor() {
+            console.log("restoreCursor");
+            console.log("range:" + window.savedRange);
+            if (window.savedRange) {
+                restoreSelection(window.savedRange);
+                window.savedRange = null;
+            }
+        }
+        
+        // 获取webView是否在编辑状态、
+        function getCaretClientPosition() {
+            var x = "false";
+            var sel = window.getSelection();
+            if (sel.rangeCount) {
+                var range = sel.getRangeAt(0);console.log(range);
+                if (range.getClientRects) {
+                    var rects = range.getClientRects();
+                    if (rects.length >= 0) {
+                        var x = "true";
+                    }
+                }
+            }
+            return x;
+        };
+            </script>
+
+    </head>
+    
+    <body>
+        <div id="content" content=" width=device-width,maximum-scale=3.0 minimum-scale=1" contenteditable="true" style="font-family: Helvetica">%@</div>
+    </body>
+</html>
+
+

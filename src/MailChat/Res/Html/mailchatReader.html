@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="initial-scale=1,user-scalable=yes, maximum-scale=2.0, minimum-scale=0.01" />
+<!--    <title>邮件内容</title>-->
+    <style>
+        html,body{font-family:helvetica, verdana, san-serif;word-break:break-word;background-color:white !important;line-height:1.5; margin:0 !important;}
+        html{padding:10px 10px 20px !important; }
+        body{padding-bottom:2px !important;}
+        h1, h2, h3, h4 {font-weight: bold; line-height: 1.5; margin:0; padding:0;}
+        h1 {font-size:1.8em;}
+        h2 {font-size:1.8em;}
+        h3 {font-size:1.8em;}
+        h4 {font-size:1.8em;}
+        pre{word-wrap:break-word;word-break:normal;}
+        blockquote{margin-right: 0;}
+        img{vertical-align: middle;max-width: 100%;height: auto;border: 0;}
+        table{border:none;}
+        a {color:#116cdf; text-decoration:underline;}
+        p{margin-bottom:.3em;}
+    </style>
+    <style>$style$</style>
+</head>
+<body>%@</body>
+<script>
+    var screenWidth = screen.width, scale = screenWidth / (document.body.scrollWidth + 10);
+    viewport.content = "initial-scale=" + scale + ", user-scalable=yes, maximum-scale=2.0";
+</script>
+
+    <script>
+        
+        var imageElements = function() {
+            var imageNodes = document.getElementsByTagName('img');
+            return [].slice.call(imageNodes);
+        };
+
+    var findCIDImageURL = function() {
+        var images = imageElements();var imgLinks = [];
+        for (var i = 0; i < images.length; i++)
+        {
+            var url = images[i].getAttribute('src');
+            if (url.indexOf('cid:') == 0 || url.indexOf('x-mailcore-image:') == 0)
+            imgLinks.push(url);
+        }
+        return JSON.stringify(imgLinks);
+    };
+
+    var replaceImageSrc = function(info) {
+        var images = imageElements();
+        for (var i = 0; i < images.length; i++) {
+            var url = images[i].getAttribute('src');
+            if (url.indexOf(info.URLKey) == 0) {
+                images[i].setAttribute('src', info.LocalPathKey);
+            }
+        }
+    };
+
+    function resizeImages(){
+        
+        var inlineImages = document.getElementsByTagName("img");
+        var imagesCount = inlineImages.length;
+        
+        var deviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        var maxWidth = deviceWidth - 20;
+        
+        for (var i = 0;i<imagesCount;i++)
+        {
+            var photo = inlineImages[i];
+            photo.onload = function(){
+                
+                var img = this;
+                
+                if (img.width > maxWidth){
+                    
+                    img.removeAttribute("width");
+                    img.style.height = "auto";
+                    
+                    var w = img.width;
+                    img.width = maxWidth;
+                    img.height = img.height * maxWidth / w;
+                }
+                
+            }
+            
+        }
+    }
+
+    function resizeTables(){
+        
+        var tables = document.getElementsByTagName("table");
+        if (!tables || tables.length == 0){
+            return;
+        }
+        
+        var deviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        var maxWidth = deviceWidth - 20;
+        
+        for(var i = 0; i < tables.length; i++){
+            var table = tables[i];
+            if(table.width && table.width > maxWidth){
+                table.removeAttribute("width");
+            }
+        }
+    }
+
+    function resizeAllElementsWidth(){
+        
+        var maxWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        
+        var allElements = document.getElementsByTagName("*");
+        for( var i = 0; i < allElements.length; i++){
+            var elmt = allElements[i];
+            
+            if(elmt.tagName == "img"){
+                continue;
+            }
+            
+            if (elmt.offsetWidth > maxWidth){
+                elmt.removeAttribute("width");
+                elmt.style.width = "auto";
+            }
+        }
+    }
+
+    function relayoutPage(){
+        resizeImages();
+        //resizeTables();-->
+        //resizeAllElementsWidth();-->
+    }
+
+    relayoutPage();
+
+    </script>
+
+</html>

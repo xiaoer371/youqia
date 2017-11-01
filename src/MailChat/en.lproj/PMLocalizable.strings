@@ -1,0 +1,429 @@
+/* 
+  PMLocalizable.strings
+  NPushMail
+
+  Created by wuwenyu on 15/4/21.
+  Copyright (c) 2015年 sprite. All rights reserved.
+*/
+PM_Main_Tab_Email         = "Emails";
+PM_Main_Tab_Message_Email = "Chats";
+PM_Main_Tab_Contact_Email = "Contacts";
+PM_Main_Tab_Mine_Email    = "Me";
+PM_Common_Cancel   = "Cancel";
+PM_Common_Complite = "Done";
+PM_Common_Sure     = "Sure";
+PM_Common_Notice   = "Notice";
+Monday             = "Monday";
+Tuesday           = "Tuesday";
+Wednesday          = "Wednesday";
+Thursday           = "Thursday";
+Friday             = "Friday";
+Saturday           = "Saturday";
+Sunday             = "Sunday";
+Yesterday          = "Yesterday";
+//========message========
+PM_Msg_AddChats           = "Send";
+PM_Msg_ErrInGroup         = "You’re no longer belong to this group, data will be deleted ";
+PM_Msg_DelMsgCell         = "Delete";
+PM_Msg_GroupName          = "Group name";
+PM_Msg_NickName          = "My Alias";
+PM_Msg_GroupNameSave      = "Save";
+PM_Msg_GroupNoChange      = " Unchanged Group name ";
+PM_Msg_NickNameNoChange      = " Unchanged Alias ";
+PM_Msg_GroupChanging      = "updating...";
+PM_Msg_GroupChangedErr    = "Failed, please check network connection";
+PM_Msg_GroupCreating      = "Creating...";
+PM_Msg_GroupCreatErr      = " Failed to create";
+PM_Msg_GroupInviting      = "Inviting...";
+PM_Msg_GroupInviteErr     = "Failed to add";
+PM_Msg_GroupExiting       = " Quit the group";
+PM_Msg_GroupExit          = "Quit the group";
+PM_Msg_GroupExitErr       = "Failed to quit";
+PM_Msg_GroupBreaking      = "Dismissing the group...";
+PM_Msg_GroupBreak         = "Dismiss the group";
+PM_Msg_GroupBreakErr      = "Unable to dismiss";
+PM_Msg_GroupNoName        = "Untitled";
+PM_Msg_GroupMembers       = "Group members:";
+PM_Msg_GroupJioning       = "Pending ";
+PM_Msg_GroupJion          = "Joined";
+PM_Msg_GroupCreator       = "Group owner";
+PM_Msg_QuitGroupInfo      = "Group dismissed";
+PM_Msg_QuitGroup          = "You have been kicked off";
+PM_Msg_MessageLoading     = "Loading......";
+PM_Msg_MessageLoadMore    = "Load more";
+PM_Msg_MessageLoadHistory = "Loading chat history";
+PM_Msg_MessageSending     = "Sending....";
+PM_Msg_MessageSendFailed  = "Send failure";
+PM_Msg_MessageDetail      = "Details";
+PM_Msg_GroupDissolve      = "The group has been dismissed";
+PM_Msg_AddContacts        = "add contact";
+PM_Msg_InviteOnlyContacts  = "invite contact";
+PM_Msg_DelContacts        = "Delete contact";
+PM_Msg_Deleting       = "Deleting...";
+PM_Msg_DeleteCancle       = "Cancel";
+PM_Msg_DeleteCreator      = "Group owner cannot be deleted";
+PM_Msg_DeleteErr_re       = "Delete failed, try again.";
+PM_Msg_EmailErrInfo       = "Email address invalid ";
+PM_Msg_ErrNoContacts      = "Please add at least a contact";
+PM_Msg_ErrNoAddContacts   = "No contact selected";
+PM_Msg_Details            = "Details";
+PM_Msg_ChatToGroup        = "Add contact，create ";
+PM_Msg_DeleteHisBtnTitle  = " Clear chat history ";
+PM_Msg_DeleteHisMessages  = "Clear chat history";
+//====netWork====
+PM_Msg_NetUnusable  = "Network unavailable ";
+PM_Msg_NetError     = "Request failed";
+PM_Msg_ServerError  = "Server error";
+PM_Msg_NetWorkError = "Network error";
+//Contact
+PM_Mine_AddEmailAccount  = "Add Email accounts";
+PM_Mine_Setting  = "settings";
+PM_Contact_SearchBarPlaceHolder  = "search";
+PM_Contact_NotAddOftenContact  = "No frequent contact";
+PM_Contact_WriteMail  = "Compose";
+PM_Contact_OftenContact  = " Frequently contacted ";
+PM_Contact_ContactInfo  = "Contact info";
+PM_Contact_Edit  = "Edit";
+PM_Contact_CancelOftenContact  = "Remove mark";
+PM_Contact_SetOftenContact  = "Mark as frequently contacted";
+PM_Contact_RequestError  = "Request error";
+PM_Contact_SengMsg  = "Send Message";
+PM_Contact_InviteUsed  = "Invite ";
+PM_Contact_NameTitle  = "Name";
+PM_Contact_AccountTitle  = "Account name";
+PM_Contact_YouQiaUser  = "using Mailchat";
+PM_Contact_EditGroup = "Editing Group";
+PM_Contact_Comment = "Comment";
+PM_Contact_CommentContactName = "Remark name";
+PM_Contact_deleteNotice = "Delete the contact permanently, which will not be added to contacts list again.";//"将此联系人从联系人列表中删除，并不再自动添加到此联系人到联系人列表中";
+PM_Contact_Phone = "phone";
+PM_Contact_MoveGroup = "Move group";
+PM_Contact_ChoiceGroup = "choose group";
+PM_Contact_CopyTo = "CopyTo";
+PM_Contact_AddToNewGroup = "add to the new group";
+PM_Contact_AddNewGroup = "create group";
+PM_Contact_Add = "Add";
+PM_Contact_GroupName = "Group name";
+PM_Contact_GroupNameNotNil = "Group name is required";//"分組名稱不能為空";
+PM_Contact_GroupAlreadyExist = "Group name has been taken, try another name";//"該分組已存在，請重新輸入";
+PM_Contact_DeleteSuccess = "Delete success";//"删除成功";
+PM_Contact_DefaultGroupNoDelete = "Default group cannot be deleted"; //"默認分組不能刪除";
+PM_Contact_DeleteGroupAndContacts = "Are you sure you want to delete the group and its contacts";//"确认删除分组及分组下的联系人吗？";
+PM_Contact_InputEmailAddress = "enter your email address";
+PM_Contact_moveContactAnthoerGroup = "If you want to add the contact to the current group and delete the record of %@ group?";
+PM_Contact_saveCurrentGroup = "Reserve";
+PM_Contact_addPhoneNumbers = "add a phone number";
+PM_Contact_PhoneNumbers = "phone number";
+PM_Contact_CommentDescription = "Description";
+PM_Contact_AddMoreCommentDescription = "Add more comment please";//"添加更多描述信息";
+PM_contact_TitleGroup = "Group:";
+PM_ContactEnterpriseCompany = "Company";
+PM_ContactEnterpriseDepartMent = "Department";
+PM_ContactEnterprisePosition = "post";
+PM_ContactEnterpriseLeader = "Dept manager";
+PM_ContactEnterpriseEmplyoee = "Staff";
+PM_ContactEnterpriseCopy = "Copy";
+PM_ContactMessageGroups = "Message Group";
+PM_ContactMessageGroupsEmpity = "You can go to group settings and enable [Save group to contacts list] to add group to this list"; //"您可以通过群聊设置的群保存到联系人列表将群保存到此列表";
+PM_ContactGroupsEmpity = "Add or Move contacts to this group";
+
+//me
+PM_Mine_AboutYouQia                = "MailChat";
+PM_Mine_Version                    = "Version";
+PM_Mine_CheckVersion               = "Check version";
+PM_Mine_AleradyNewVersion           ="Mailchat is up to date ";
+PM_Mine_UpdateVersion               ="Version update";
+PM_Mine_Ignore                     = "Skip";
+PM_Mine_Update                     = "Update";
+PM_Mine_CheckUpdate                = " Check for update ";
+PM_Mine_SetScore                   = "Rate app";
+PM_Mine_ExitCurrentAccount         = "Exist the account ";
+PM_Mine_Privacy                    = "Privacy Policy";
+PM_Mine_Exiting                    = "Logging out...";
+PM_Mine_avatorTitle                = "avator";
+PM_Mine_nameTitle                  = "name";
+PM_Mine_NickNameLengthWrong        = "Nick name should be less than 36 characters, please enter again."; //"昵称字数最多不能超过36个，请重新输入";
+PM_Mine_GroupNameLengthWrong        = "Group name should be less than 20 characters, please enter again.";//"分组名称不能超过20个字符，请重新输入";
+PM_Mine_NewMailAlert               = "Email\\Message notification";
+PM_Mine_FeedBack                   = "Feedback";
+PM_Mine_Signature                  = "Signature";
+PM_Mine_signatureSetEach           = "Per Account";
+PM_Mine_signatureSetTogether       = "All Accounts";
+PM_Mine_GesturePassword            = "Gestures password";//新增
+PM_Mine_Modify_GesturePassword  = "Change Gestures Password";
+
+PM_Mine_Language                   = "Language";
+
+
+PM_Mine_Changing                   = "Switching...";
+PM_Mine_Suggestions_PlaceHolder    = "Your feedback would be highly appreciated !";
+PM_Mine_FeedBackAction             = "send";
+PM_Mine_PleaseInputFeedBackContent = "Please input ";
+PM_Mine_FeedBackFailed             = "FeedbackFailed";
+PM_Mine_FeedBackSuccess            = "sentFeedback";
+
+PM_Mine_FeedBackNote               = "FeedBack Message";
+PM_Mine_FeedBackImageNote          = "FeedBack Image";
+PM_Mine_FeedBackChooseImage        = "Image";
+
+PM_Mine_ExcitementContinued        = "Excitement Continued";
+PM_Mine_AwardedQuestionnaire       = "Awarded Questionnaire";
+PM_Mine_FileManager                = "我的文档";
+
+PM_Mine_sendFeedBackFile           = "Do you want to upload bug reports ?";
+PM_Mine_FileSize                   = "Size";
+PM_Mine_AlreadyPushOn              = "Enabled";
+PM_Mine_AlreadyPushOff             = "Disabled";
+PM_Mine_PushSettingGuide           = "Please enable Push notification for  Mailchat under settings>> Notifications>>  ";
+PM_Mine_mailPushTitle              = "Email notice";
+PM_Mine_msgPushTitle               = "Message notice";
+
+
+PM_Mail_FolderOptionInbox   = "Inbox";
+PM_Mail_FolderOptionSendBox = "Sent";
+PM_Mail_FolderOptionOutBox  = "Pending";
+PM_Mail_FolderOptionCollect  = "Starred";
+PM_Mial_FolderOptionDelete  = "Trash";
+PM_Mail_FolderOptionOtherfolder  = "Other folder";
+PM_Mail_FolderOptionDraft  = "Drafts";
+PM_Mail_FolderOptionSpam  = "Spam";
+PM_Mail_NoneSubject  = "No title";
+PM_Mail_NoneToAddress  = "No recipient ";
+PM_Mail_NoneFromAddress  = "No sender";
+PM_Mail_NoneTextContent  = "No Content";
+PM_Mail_NoneNewMail  = "No new mails";
+PM_Mail_NewMailReloadDown = "Pull to refresh";
+PM_Mail_NewMailReloadOut  = "Release to refresh";
+PM_Mail_NewMailReloadIng  = "Checking new mails";
+PM_Mail_NewMailReloadData = "LUT";
+PM_Mail_NewMailReloadDataToday = "Today";
+PM_Mail_SearchServer      = "SearchServer";
+PM_Mail_NoResults         = "NoResult";
+
+
+
+PM_Mail_NoneMails  = "Nothing in inbox";
+PM_Mail_NoneMoreMails  = "No more ";
+PM_Mail_ConnectFail  = "Connection failed";
+PM_Mail_SetUnRead  = "Mark\nUnread";
+PM_Mail_SetRead  = "Mark\nRead";
+PM_Mail_Set_UnRead  = "MarkUnread";
+PM_Mail_Set_Read  = "MarkRead";
+PM_Mail_UnRead  =  "Unread";
+PM_Mail_All     =  "All";
+PM_Mail_SelectAll   = "Select all";
+PM_Mail_UnSelectAll = "unselect all";
+PM_Mail_More    =  "More";
+PM_Mail_Collection  = "Star";
+PM_Mail_UnCollection  = "Remove star";
+PM_Mail_DeleteMail  = "Trash";
+PM_Mail_MoveMail  = "move";
+PM_Message_SendInvitations  = "Send an invitation";
+PM_Message_Invitations  = " invitation ";
+PM_Message_Invitationsucc  = "invitation success";  //
+
+PM_Message_Invitationsing  = "inviting...";
+PM_Message_InvitationsFail  = "Invite has been declined";
+PM_Message_InviteMail  = " Invitation has been sent ";
+PM_Mail_EditOptionReplyAll   = "Re all";
+PM_Mail_EditOptionrReplyOnlyOne   = "Re";
+PM_Mail_EditOptionForward   = "Fwd";
+PM_Mail_MailFrom   = "From";
+PM_Mail_MailTo   = "To";
+PM_Mail_MailDetailCc   = "Cc";
+PM_Mail_MailData   = "date";
+PM_Mail_MailTime   = "time";
+PM_Mail_MailSubject   = "Sub";
+PM_Mail_MailEdit   = "Compose";
+PM_Mail_SendMail   = "Send";
+PM_Mail_Mialbcc   = "Bcc";
+PM_Mail_MailCc   = "Cc";
+PM_Mail_MailSignature   = "Send from my Mailchat ";
+PM_Mail_AttLoading   = "Loading attachment";
+PM_Mail_AttNote       =   " Attached file could be lost, do you want to send it anyway ?";
+PM_Mail_OptionNo      =   "No";
+PM_Mail_OptionYes     =   "Yes";
+
+PM_Mail_SubjectNote   =   "This Email has no subject";
+PM_Mail_IsSending    =   " Do you want to send it anyway";
+PM_Mail_SaveDraftOrNO =   " Save to Draft or not";
+PM_Mail_SaVeDraft     =   "Save to Draft";
+PM_Mail_NotSaveDraft =   "Discard ";
+PM_Mail_MailSendScc  =   "Successful";
+PM_Mail_MailSendFail =   " Failed to be sent ";
+PM_Mail_AddContactNote=   "Please add at least one contact";
+PM_MailAccontCKNote     = " Account format invalid ";
+PM_Mail_UnableUseCamera = "Unable to Open Camera ";
+PM_Mail_UseCameraNote  = "Enable Camera for Mailchat through here: settings>> privacy>> Camera ";
+PM_Mail_PreviewPhoto    = "Preview";
+PM_Mail_ReadMail       = "Review Email";
+PM_Mail_PhoneCall        ="Calling";
+PM_Mail_MailAttDownloading   = "Downloading...";
+PM_Mail_MailAttDownload    = "Load";
+PM_Mail_MailAttDownloadError   = "Download failed";
+PM_Mail_ShowMoreDetail         = "Display";
+PM_Mail_HideMoreDetail         = "Hide";
+PM_Mail_ForwardWithAtt         = "With attachment";
+PM_Mail_ForwardWithOutAtt      = "No attachment included";
+PM_Mail_MailLoadAgain          = "Reload";
+PM_Message_NewGrupChat        = "Create Group";
+PM_Mail_PreviewFileNote        = "Unsupported file type";
+PM_Mail_Loading               = "Loading";
+PM_Mail_MailAttchmentPreview   = "Review";
+PM_Mail_OpenUseOtherAPP       =  "Use other APP open";
+
+
+
+
+
+PM_Login_SelectMailLogin       = "Choose Email account ";
+PM_Login_LoginMail             = "Log in";
+PM_Login_AccountOrPassWordNil  = "Account or password cannot be empty!";
+PM_Login_AccountError          = "Account invalid";
+PM_Login_AccountRepeat        = "Account already exist";
+PM_Login_AccountValidation     = "checking info...";
+PM_Login_AccountValidationFail = "Authentication failed";
+PM_Login_AccountSuccess        =  "Success";
+PM_Login_ManualIMAPSetting     = "Manual setting";
+PM_Login_LoginError           = "Login failed";
+PM_Login_IMAPSetting           = "IMAP settings";
+PM_Login_NetEasePasswordNote  = "Authorization code";
+PM_Login_LoginErrorNote        =  " Please try the following steps:\n1.Log into your Email account from webpage and enable IMAP service through dashboard .  \t\n2.Please enter correct account name and password \t\t";
+PM_Login_LoginNoteWithIndependentPassword = "Please try the following step :\n1. Log into your Email account from webpage and enable IMAP service through dashboard . \t\n2. Please enter correct account name and password \t\t\n3.Use separate password . \t\t\t";
+PM_Login_LoginNetEastNoteWithIndependentPassword = "Please try the following solutions enable IMAP service login with correct email address or password login with client authorization code";
+PM_Login_Login35NoteWithIndependentPassword = "account or password error";
+PM_Login_ServerSetting                    = "Server settings";
+PM_Login_SMTPSettingError                = "SMTP setting error";
+PM_Login_AccountValidationFailNote        = "Account or password invalid, please try again or contact your account administrator. ";
+PM_Login_LoginAgain                    = "Retry";
+PM_Login_ChangeAccount                   = "Switch account";
+PM_Login_NickName = "Alias:";
+PM_Login_ClickFix = "Edit Avatar";
+PM_Login_YQstart = "Try it now";
+PM_Login_TakePhoto ="Use Camera";
+PM_Login_FromPhoto ="Choose from photos";
+PM_Login_Logining = "Loading...";
+PM_Login_PhotoreStricted = "Mailchat can't acess Photos or Videos";
+PM_Login_PhotoSet = "Allow Acess";
+PM_Login_HowToSet = "You can allow mailchat to access photos in “settings-privacy-photos”";
+PM_Login_Account = "Email:";
+PM_Login_PassWord = "Password:";
+PM_Login_HelperText = "Login error? Helper";
+PM_Login_Helper = "Helper";
+PM_Login_HelperName = "Helper";
+PM_UUInput_placeH = "new message";
+PM_UUInput_PhotoAlbum = "Photo album";
+
+PM_MailType_Company = "Enterprise Mail";
+
+PM_MailType_Other = "Others";
+
+
+//=====
+PM_IMAGE_SaveImageToAlbum = "Save image to Album";
+PM_IMAGE_SaveImageErr = "Save image error! permissions is closed, please go to the Settings - privacy - photos contact open access!";
+PM_IMAGE_SaveImageSuc = "Save image success";
+PM_FORWARD_Forward = "forward";
+PM_FORWARD_ForwardTo = "forward to";
+PM_FORWARD_ForwardRecently = "recently";
+PM_FORWARD_ForwardSure = "forward to";
+PM_FORWARD_ForwardWithEmail = "forward use email";
+PM_Account_set = "set account";
+PM_Mine_SetGesturePassword  = "Set Gestures password";
+PM_Mine_SetingGesturePassword  = "Set Gestures password";
+PM_Mine_ReplaceGesturePassword  = "Replace Gestures password";
+PM_Mine_PleaseGesturePassword  = "Please Gestures password";
+PM_Mine_ForgetGesturePassword  = "Forget Gestures Password";
+PM_Mine_SetAgainGesturePassword  = "Validation Gestures password ";
+PM_Mine_SettingAgainGesturePassword  = "Please Gestures password again";
+PM_Mine_SetGestureDifferent  = "Gestures password Different";
+PM_Mine_SetGestureSuccess  = "set seccess";
+PM_Mine_GestureError  = "Gestures password error";
+PM_Mine_OldGesture  = "please input original Gestures";
+//清除缓存
+PM_Mine_ClearCache  = "Clear cache";
+
+PM_Main_CcToSelf      = "Cc to yourself";
+
+
+PM_Main_ForwardContact = "Forward Other Contact";
+
+PM_Main_inviteSomeUseAPP = "Invite friends to use MailChat";
+PM_Main_inviteSomeUseYouQia = "Invite friends";
+
+PM_Main_Someone_using_APP = "Your friends using MailChat, say Hello to them!";
+PM_Main_Remind_Chat_APP = "Click on the top right corner Send, Create chats!";
+PM_Mail_Push_Show_Detail = "Show details of notifcation";
+PM_Main_Push_Msg_Close_Notice = "Close an item to disable its new message notifications"; //"關閉某項後，當收到此類新消息，不再有通知提示。";
+PM_Main_Push_ShowDetail_Close_Notice = "Close to show title only on notifciation center"; //"關閉後，當收到新消息時，通知提示將不再顯示發信人和內容摘要。";
+
+PM_FORWARD_ForwardSuccess = "Forward Success";
+PM_Main_Clear = "Clear the Cache"; 
+PM_Mail_LoadMoreEmails   = "Pull-up Load More Data";
+PM_Mail_LoosenMoreEmails   = "Release to load more data";
+PM_Mail_LoadingMoreEmails   = "Loading more data...";
+PM_Msg_Push_OA      = "35PushOA";
+PM_Msg_Send_OA      = "Send OA";
+PM_Msg_SetMsg_Top      = "ON TOP";
+PM_Msg_OA_Notice   = "Notice";
+PM_Msg_OA_Title   = "Transaction(OA";
+PM_Msg_OA_Commission   = "Remain Trans";
+PM_Msg_OA_Launch   = "New Transaction";
+PM_Msg_File_Down   = "down load";
+PM_Msg_File_stop   = "stop";
+PM_Msg_Type_File   = "[file]";
+PM_Msg_Type_Voice   = "[voice]";
+PM_Msg_Type_Pic   = "[picture]";
+PM_Contacts_Type_En   = "Business contacts";
+PM_Contacts_Type_To   = "Between the contacts";
+PM_Msg_OA_LaunchFromMe   = "Launched";  //new
+PM_Msg_Send_File   = "Send file";
+//服务器配置
+PM_ServerSetting_set      = "Server setting";
+PM_ServerSetting_imap     = "IMAP SERVER";
+PM_ServerSetting_smtp     = "SMTP SERVER";
+PM_ServerSetting_Server   = "Server";
+PM_ServerSetting_Account  = "Account";
+PM_ServerSetting_password = "Password";
+PM_ServerSetting_Port     = "Port";
+PM_ServerSetting_SSL      = "SSL";
+PM_Message_SetTop      = "Message Top ON";  //
+PM_Message_No_Push     = "Message Push ON";
+
+
+
+PM_Msg_Type_FileTitle   = "File";    
+PM_Msg_SetMsg_NoTop      = "NO Set Top";
+PM_Msg_SetOA_Notice      = "OA Notice";
+PM_Message_ContactSave  = "Save to the Contact List";
+
+
+
+//11.16 add
+PM_Message_CopyText  = "Copy";
+PM_Message_LoadURL  = "Load URL";
+PM_Message_CallTel  = "Call Telephone Number";
+
+
+//12.17  add
+PM_Invite_Notice = "Please enter the invitation code, your friend will get credits. \n\n You have an invitation code as well, which is in [Me]->[Invite friends with rewards]. When your friend enter your invitation code, you will get the credits. \n\n The invitation code is open for internal staffs at present, it will be opened to public soon. \n\n The event has nothing to do with Apple.";
+PM_Invite_Friends = "Invite friends";
+PM_Invite_InputCode = "Enter invite code.";
+PM_Invite_Mark = "Note: Invitation code is for new users only.";
+PM_Invite_Info = "Using friends' invitation code, your friend will get the credits. Skip to use now if no code.";
+PM_Invite_award = "Invite friends with rewards";
+PM_Invite_InvCode = "Your invitation code：";
+PM_Invite_InvNotice = "You will get rewards when your friends enter the invitation code";
+
+//12.18 add
+PM_UpdateVersion_note = "UPGRADE";
+PM_UpdateVersion_NO   = "Ignore";
+PM_UpdateVersion_Yes  = "Update";
+PM_UpdateVersion_title = "MailChat has updated to V%@";
+
+PM_Invite_NoticeMe  = "Your invitation code is unique. Tap [Invite friends], we will send mails to your selected friends with the invitation code. \n\n You will get 10 credits when your friends login with the code.\n\n Note: \n 1. The invitation code is for internal staffs only at present, the presents will be published at internal as well, we will open it for public soon. \n\n 2. Users can enter the invitation code at first login only, please remind your friends. \n\n 3. This event has nothing to do with Apple.";
+PM_Invite_Getscore = "Have access to";
+PM_Invite_Score = "points";
+
+
+

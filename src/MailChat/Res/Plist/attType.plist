@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>jpg</key>
+	<string>image/jpeg</string>
+	<key>tiff</key>
+	<string>image/tiff</string>
+	<key>gif</key>
+	<string>image/gif</string>
+	<key>doc</key>
+	<string>application/msword</string>
+	<key>docx</key>
+	<string>application/vnd.openxmlformats-officedocument.wordprocessingml.document</string>
+	<key>htm</key>
+	<string>text/html</string>
+	<key>html</key>
+	<string>text/html</string>
+	<key>key</key>
+	<string></string>
+	<key>numbers</key>
+	<string></string>
+	<key>pages</key>
+	<string></string>
+	<key>pdf</key>
+	<string>application/pdf</string>
+	<key>ppt</key>
+	<string>application/vnd.ms-powerpoint</string>
+	<key>pptx</key>
+	<string>application/vnd.openxmlformats-officedocument.presentationml.presentation</string>
+	<key>txt</key>
+	<string>text/plain</string>
+	<key>rtf</key>
+	<string>application/rtf</string>
+	<key>vcf</key>
+	<string>text/x-vcard</string>
+	<key>xls</key>
+	<string>application/vnd.ms-excel</string>
+	<key>xlsx</key>
+	<string>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</string>
+	<key>zip</key>
+	<string>application/zip</string>
+	<key>wav</key>
+	<string>audio/x-wav</string>
+	<key>ics</key>
+	<string>x-conference/x-cooltalk</string>
+</dict>
+</plist>

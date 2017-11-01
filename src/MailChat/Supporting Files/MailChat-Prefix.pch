@@ -1,0 +1,26 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <Cocoalumberjack/CocoaLumberjack.h>
+
+    #import "MCAppStatus.h"
+    #import "MCConstants.h"
+    #import "MCUmengManager.h"
+    #import "UIColor+Hex.h"
+    #import "NSString+Extension.h"
+    #import "SVProgressHUD.h"
+
+#endif
+
+
